@@ -31,21 +31,21 @@ if f_lower == "canadian tire":
         t = input("Você quer jantar em qual restaurante? Digite Sushi, Captain Boil ou Hooters\n")
         t_lower = t.lower() 
         if t_lower == "sushi":
-            print("\nSUSHINHO CAIU BEM HEIN.... PAI TÁ ON EM CALGARY. VOCÊ VENCEU O JOGO! \n")
+            print("\nSUSHINHO CAIU BEM HEIN... VOCÊ VENCEU O JOGO! \n")
         elif t_lower == "hooters":
             print("\nXiiiii... Aquela asinha não caiu bem. GAME OVER!")
         elif t_lower == "captain boil":
              print("\nXiiiiii...O camarão tava muito apimentado e deu caganeira. GAME OVER!")
         else:
-            print("\nNão sabe nem digitar e quer jogar o joguinho? GAME OVER!")
+            print("\nGAME OVER!")
     elif s_lower == "churrasqueira":
       print("\nXiiiii... teu prédio não permite churrasqueira. GAME OVER!\n")
     else:
-      print("\nNão sabe nem digitar e quer jogar o joguinho? GAME OVER!")
+      print("\n GAME OVER!")
 elif f_lower == "ikea":  
   print("Você derrapou antes de chegar na IKEA. GAME OVER!")
 else:
-  print("Eu te dei só duas opções caralho. Tu é burro? GAME OVER!")
+  print("Eu te dei só duas opções. GAME OVER!")
     
 
 

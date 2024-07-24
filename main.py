@@ -10,44 +10,35 @@ print('''
 
 ''')
 
+print("Welcome to the Calgary Game.")
+print("Your mission is to survive the Canadian winter.\n")
 
-print("Bem vindo ao Calgary Game.")
-print("A sua missão é sobreviver ao inverno Canadense.\n") 
-
-
-#Write your code below this line 👇
-
-print("Parabéns, você chegou em Calgary de carro.\n")
-f = input("Onde você quer ir primeiro? Canadian Tire ou IKEA?: \n" )
+print("Congratulations, you've arrived in Calgary by car.\n")
+f = input("Where do you want to go first? Canadian Tire or IKEA?: \n")
 f_lower = f.lower()
 
-
-
-if f_lower == "canadian tire": 
-    s = input("\nVocê quer colocar pneu de neve ou comprar churrasqueira? Digite pneu de neve ou churrasqueira\n")
+if f_lower == "canadian tire":
+    s = input("\nDo you want to get snow tires or buy a barbecue? Type snow tires or barbecue\n")
     s_lower = s.lower()
-    if s_lower == "pneu de neve":
-        print("\nPneu de neve trocados com sucesso.\n")
-        t = input("Você quer jantar em qual restaurante? Digite Sushi, Captain Boil ou Hooters\n")
-        t_lower = t.lower() 
+    if s_lower == "snow tires":
+        print("\nSnow tires changed successfully.\n")
+        t = input("Where do you want to eat dinner? Type Sushi, Captain Boil or Hooters\n")
+        t_lower = t.lower()
         if t_lower == "sushi":
-            print("\nSUSHINHO CAIU BEM HEIN... VOCÊ VENCEU O JOGO! \n")
+            print("\nSushi hit the spot! YOU WIN THE GAME! \n")
         elif t_lower == "hooters":
-            print("\nXiiiii... Aquela asinha não caiu bem. GAME OVER!")
+            print("\nOuch! Those wings didn't agree with you. GAME OVER!")
         elif t_lower == "captain boil":
-             print("\nXiiiiii...O camarão tava muito apimentado e deu caganeira. GAME OVER!")
+            print("\nYikes! The shrimp was too spicy. GAME OVER!")
         else:
             print("\nGAME OVER!")
-    elif s_lower == "churrasqueira":
-      print("\nXiiiii... teu prédio não permite churrasqueira. GAME OVER!\n")
+    elif s_lower == "barbecue":
+        print("\nOops! Your building doesn't allow barbecues. GAME OVER!\n")
     else:
-      print("\n GAME OVER!")
-elif f_lower == "ikea":  
-  print("Você derrapou antes de chegar na IKEA. GAME OVER!")
+        print("\n GAME OVER!")
+elif f_lower == "ikea":
+    print("You slipped before reaching IKEA. GAME OVER!")
 else:
-  print("Eu te dei só duas opções. GAME OVER!")
-    
-
-
+    print("I only gave you two options. GAME OVER!")
 
 
